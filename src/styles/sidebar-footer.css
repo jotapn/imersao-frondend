@@ -175,3 +175,56 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+.rodape {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 20px;
+    text-align: start;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    filter: saturate(150%);
+    padding: 15px 40px;
+    justify-content: space-between;
+}
+
+.rodape__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.rodape__text .rodape_title {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+.rodape__text .rodape_subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button button{
+    font-family: "DM Sans", sans-serif;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    text-decoration: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 14px 30px;
+    font-size: 16px;
+    flex-shrink: 0;;
+}

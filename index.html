@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/sidebar-footer.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -18,7 +18,7 @@
             <div class="sidebar__navigation_home">
                 <div class="logo">
                     <a href="#">
-                        <img src="./assets/icons/logo-spotify.png" alt="logo-spotify">
+                        <img src="./src/assets/icons/logo-spotify.png" alt="logo-spotify">
                     </a>
                 </div>
                 <ul>
@@ -38,7 +38,7 @@
             </div>
             <div class="sidebar__navigation__library">
                     <header class="library__header">
-                                <button class="library__button" href="">
+                                <button class="library__button">
                                     <span class="fa fa-book"></span>
                                     <span>Sua Biblioteca</span>
                                 </button>
@@ -66,6 +66,20 @@
             </div>
         </nav>
     </div>
-    
+    <footer class="rodape">
+        <div class="rodape__text">
+            <p class="rodape__title">
+                TESTAR O PREMIUM DE GRAÇA
+            </p>
+            <p class="rodape_subtitle">
+                Inscreva-se para curtir musica ilimitada e podcasts só com alguns anuncios. Não precisa de cartão de crédito.
+            </p>
+        </div>
+        <div class="button">
+            <button type="button">
+                Inscreva-se grátis
+            </button>
+        </div>
+        </footer>
 </body>
 </html>
